@@ -18,27 +18,27 @@ public class Bank {
             System.out.println("2. Prelievo di denaro");
             System.out.println("3. Fine operazione");
 
-            int scelta = scan.nextInt();
+            int choice = scan.nextInt();
 
-            if (scelta == 1) {
+            if (choice == 1) {
                 System.out.println("Inserire l'importo del versamento:");
-                double versamento = scan.nextDouble();
-                if (account.depositMoney(versamento)) {
+                double dep = scan.nextDouble();
+                if (account.depositMoney(dep)) {
                     System.out.println("Versamento andato a buon fine!");
                     System.out.println("Saldo attuale: " + account.getBalance());
                 } else {
                     System.out.println("Ci dispiace, ma la transazione non è andata a buon fine!");
                 }
-            } else if (scelta == 2) {
+            } else if (choice == 2) {
                 System.out.println("Inserire l'importo da prelevare:");
-                double prelievo = scan.nextDouble();
-                if (account.withdrawMoney(prelievo)) {
+                double pay = scan.nextDouble();
+                if (account.withdrawMoney(pay)) {
                     System.out.println("Prelievo andato a buon fine");
                     System.out.println("Saldo attuale: " + account.getBalance());
                 } else {
                     System.out.println("Ci dispiace, ma la transazione non è andata a buon fine!");
                 }
-            } else if (scelta == 3) {
+            } else if (choice == 3) {
                 System.out.println("Grazie per averci scelto");
                 break;
             }

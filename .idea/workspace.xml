@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21c76435-b902-41d1-bcff-501ac10c9fad" name="Changes" comment="print bank account">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="21c76435-b902-41d1-bcff-501ac10c9fad" name="Changes" comment="java bank">
       <change beforePath="$PROJECT_DIR$/src/org/lessons/java/bank/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/java/bank/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/lessons/java/bank/Conto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/java/bank/Conto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697813441951</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="java bank">
+      <option name="closed" value="true" />
+      <created>1697816352901</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697816352901</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -124,6 +130,7 @@
     <MESSAGE value="print first product" />
     <MESSAGE value="java shop" />
     <MESSAGE value="print bank account" />
-    <option name="LAST_COMMIT_MESSAGE" value="print bank account" />
+    <MESSAGE value="java bank" />
+    <option name="LAST_COMMIT_MESSAGE" value="java bank" />
   </component>
 </project>
