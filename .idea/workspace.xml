@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21c76435-b902-41d1-bcff-501ac10c9fad" name="Changes" comment="print first product">
+    <list default="true" id="21c76435-b902-41d1-bcff-501ac10c9fad" name="Changes" comment="java shop">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/lessons/java/bank/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/java/bank/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/lessons/java/bank/Conto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/java/bank/Conto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/lessons/java/shop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/java/shop/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/lessons/java/shop/Prodotto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/java/shop/Prodotto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,20 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Utente/Desktop/java-oop1/src/Main.java&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Bank">
+    <configuration name="Bank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.lessons.java.bank.Bank" />
+      <module name="java-oop1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lessons.java.bank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.lessons.java.shop.Main" />
       <module name="java-oop1" />
@@ -57,6 +71,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bank" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -86,12 +101,21 @@
       <option name="project" value="LOCAL" />
       <updated>1697806586228</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="java shop">
+      <option name="closed" value="true" />
+      <created>1697809427022</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697809427022</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="print first product" />
-    <option name="LAST_COMMIT_MESSAGE" value="print first product" />
+    <MESSAGE value="java shop" />
+    <option name="LAST_COMMIT_MESSAGE" value="java shop" />
   </component>
 </project>
