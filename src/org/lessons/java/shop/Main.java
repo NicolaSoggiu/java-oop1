@@ -4,23 +4,14 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Inserisci il nome del prodotto: ");
-        String name = scan.nextLine();
-        System.out.println("Inserisci la descrizione del prodotto: ");
-        String description = scan.nextLine();
-        System.out.println("Inserisci il prezzo del prodotto: ");
-        int price = scan.nextInt();
-        System.out.println("Inserisci IVA del prodotto: ");
-        int IVA = scan.nextInt();
 
-        Prodotto product = new Prodotto(name, description, price, IVA);
-        String finalProduct =   product.getName() + product.getDescrizione() +
-                                product.getPrezzo() + product.getIVA();
+        Prodotto playstation5 = new Prodotto("Playstation 5", "La console di ultima generazione", 500, 22);
+        System.out.println(playstation5);
 
-        System.out.println( product.getCodice() + finalProduct);
+        Prodotto galaxyFold = new Prodotto("Samsung Galaxy Fold", "L'ultima uscita della serie galaxy", 1200, 22);
+        System.out.println(galaxyFold + " " + "Prezzo con IVA: " + galaxyFold.getPrezzoIva());
 
-
-        scan.close();
+        Prodotto laptop = new Prodotto("HP Pavillon", "Dotato di touchscreen", 700, 22 );
+        System.out.println(laptop.getCodiceNome() + " " + laptop);
     }
 }
