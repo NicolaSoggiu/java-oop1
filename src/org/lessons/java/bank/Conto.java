@@ -8,7 +8,7 @@ public class Conto {
 
     private int countNumber;
     private String accountName;
-    private int balance;
+    private double balance;
 
     public Conto(String accountName) {
         countNumber = rand.nextInt(1, 1000);
@@ -24,11 +24,25 @@ public class Conto {
         return accountName;
     }
 
-    public int getBalance() {
+    public double getBalance() {
         return balance;
     }
 
     public String toString() {
         return "Numero Conto: " + countNumber + "\nNome Conto: " + accountName + "\nSaldo: " + balance;
+    }
+
+    public boolean depositMoney(double deposit) {
+        balance += deposit;
+        return true;
+    }
+
+    public boolean withdrawMoney(double money) {
+        if (money <= balance) {
+            balance -= money;
+        } else {
+            System.out.println("Saldo insufficiente");
+        }
+        return true;
     }
 }
